@@ -21,7 +21,7 @@ void setup() {
 }
 
 void Forward(){
-      //ROVER FORWARD DRIVE
+      //ROVER FORWARD DRI
       digitalWrite(RPWMR,HIGH);
       digitalWrite(RPWML,HIGH);
       digitalWrite(LPWMR,LOW);
@@ -77,12 +77,7 @@ void loop() {
       {
         Stop();
          }
-         
-      if(incoming==70)
-      {
-        Forward();
-        
-      }
+
       if(incoming==66)
       {Backward();
       }
